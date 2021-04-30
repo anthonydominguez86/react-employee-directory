@@ -9,7 +9,7 @@ li {
 nav {
     display: flex;
     justify-content: center;
-    background-color: green;
+    background-color: #28a745;
     border-bottom: 10px solid #000000;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -31,7 +31,7 @@ nav {
 }
 
 footer {
-    background-color: green;
+    background-color: #28a745;
     border-top: 4px solid black;
     padding-bottom: 2px;
     line-height: 1;

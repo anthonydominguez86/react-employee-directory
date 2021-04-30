@@ -72,11 +72,11 @@ function MainContainer(){
             {/* search function */}
             <div className="input-group mb-3 float-center">
                 <input value={search} onChange={handleInputChange} type="text" className="form-control" placeholder="Search Employee by Name" aria-label="Recipient's username" aria-describedby="button-addon2"/>
-                <button className="btn btn-outline-danger" onClick={clearSearch}><i class="fas fa-window-close"></i></button>
-                <button onClick={handleFormSubmit} className="btn btn-outline-primary" type="submit" id="button-addon2">Search</button>
+                <button className="btn btn-danger  ml-1 mr-1" onClick={clearSearch}><i class="fas fa-window-close"></i></button>
+                <button onClick={handleFormSubmit} className="btn btn-success" type="submit" id="button-addon2">Search</button>
             </div>
             <div style={{display: "flex", justifyContent: "center",  margin: "auto", color: "gray"}}>
-                <p><small>Hover over the Phone Number or Email to Sort Employees</small></p>
+                <p><small>Hover to the right of Phone Number or Email to Sort Employees</small></p>
             </div>
             <Table list={users} sortEmail={sortEmail} sortNumber={sortNumber}/>
         </div>
