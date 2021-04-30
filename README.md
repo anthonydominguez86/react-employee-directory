@@ -27,3 +27,5 @@ The user should be able to:
 <img width="1440" alt="employee directory3" src="https://user-images.githubusercontent.com/73844796/116716628-fdf01600-a9a5-11eb-8c1d-316904aea204.png">
 
 # Deployment URL:
+
+* https://anthonydominguez86.github.io/react-employee-directory/
